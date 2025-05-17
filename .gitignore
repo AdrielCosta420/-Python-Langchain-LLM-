@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribuição
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Arquivos de log e banco de dados local
+*.log
+*.sqlite3
+
+# Virtualenvs
+venv/
+env/
+ENV/
+.venv/
+.env/
+.venv.bak/
+env.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Pytest
+.cache/
+
+# VSCode
+.vscode/
+
+# IDEs e editores
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de ambiente
+.env
+.env.*
+*.secret
+*.key
+
+# Arquivos de configuração locais
+config.yaml
+settings.local.*
