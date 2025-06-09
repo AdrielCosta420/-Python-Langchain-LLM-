@@ -1,6 +1,6 @@
 # Data Analyst Agent - Agente de Análise de Dados com LLM
 
-Este repositório contém o código do **Data Analyst Agent**, um agente inteligente construído com **LangChain** e integrado a modelos locais via **Ollama**. Ele consome dados de vendas fornecidos por uma API backend em **Node.js + Fastify + Prisma + MongoDB**, realiza análises, interpretações e recomendações, e responde perguntas em linguagem natural.
+Este repositório contém o código do **Data Analyst Agent**, um agente inteligente construído com **LangChain** e integrado a modelos locais via **Ollama** ou modelos em Cloud. Ele consome dados de vendas fornecidos por uma API backend em **Node.js + Fastify + Prisma + MongoDB**, realiza análises, interpretações e recomendações, e responde perguntas em linguagem natural.
 
 ---
 
@@ -13,7 +13,7 @@ Criar um agente conversacional para responder perguntas estratégicas sobre dado
 ## Tecnologias
 
 - **Backend:** Node.js + Fastify + Prisma + MongoDB  
-- **Agente LLM:** Python + LangChain + Ollama (modelos locais como Llama2:7b)  
+- **Agente LLM:** Python + LangChain + Ollama (modelos locais como Llama2:7b)  ou Modelos em Cloud (OpenAI, Deepseek etc) - use o OpenRouter para acessar o Hub de modelos gratuitos
 - **Frontend:** Flutter com gerenciamento nativo usando ChangeNotifier, injeção de dependência via GetIt, arquitetura modular
 
 ---
@@ -34,7 +34,7 @@ Criar um agente conversacional para responder perguntas estratégicas sobre dado
 
 1. Configure suas variáveis sensíveis no arquivo `.env` (não versionado).  
 2. Execute o backend Node.js com conexão ao banco de dados.  
-3. Rode o agente Python, que consulta a API do backend e processa as respostas via LangChain + Ollama.  
+3. Rode o agente Python, que consulta a API do backend e processa as respostas via LangChain + Ollama ou Modelos em Cloud.  
 4. Integre com o frontend Flutter para consulta via botões pré-definidos, evitando perguntas genéricas e otimizando custo computacional.  
 
 ---
